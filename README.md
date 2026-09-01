@@ -6,7 +6,7 @@ Step 2&3 is only needed for reconstruction
 1. Download this repo. 
 2. Download the following 3rd party tools
    - ISMRM water fat toolbox: http://cds.ismrm.org/protected/FatWater12_data/fwtoolbox_v1_code.zip
-   - GE orchestra-sdk matlab
+   - GE orchestra-sdk matlab: https://github.com/GEHC-External/MR-Orchestra-SDK-Matlab
 3. In `setuppath.m`, set the path to 3rd party toolboxes
 
 ## Usage
