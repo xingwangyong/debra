@@ -1,4 +1,5 @@
 # debra
+View the pulseq sequence at https://bughht.github.io/seqeyes_plugin/?url=https://github.com/xingwangyong/debra/blob/main/debra.seq . The sequence starts with a short GRE acquisition for sensitivity map calculation. Then the real EPI imaging readout starts.
 ![](overview.jpg)
 ## Install
 Step 2&3 is only needed for reconstruction
