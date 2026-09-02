@@ -2243,9 +2243,9 @@ water_to_show = squeeze(water_individualTE_iterSeg_iterBvol(:,:,slc_ind_show,1,v
 fat_to_show = squeeze(fat_individualTE_iterSeg_iterBvol(:,:,slc_ind_show,1,vol_ind_show));
 
 
-ims(src_img_to_show);title 'source image'
-ims(water_to_show);title 'water'
-ims(fat_to_show);title 'fat'
+ims(src_img_to_show);title 'source image';clim = get(gca, 'CLim');
+ims(water_to_show,clim);title 'water';colorbar off
+ims(fat_to_show,clim);title 'fat';colorbar off
 return
 
 %%
