@@ -12,3 +12,6 @@ Step 2&3 is only needed for reconstruction
 ## Usage
 - `main_gen_sequence_brain_phantom.m`, generate the single shot pulseq sequence used for brain and phantom scan
 - `main_recon.m`, recon the phantom data
+
+The `main_recon.m` would output three images
+![](result.jpg)
